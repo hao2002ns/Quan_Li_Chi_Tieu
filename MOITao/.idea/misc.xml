@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/activity_add_edit.xml" value="0.1" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/activity_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/activity_main.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/activity_quan_ly_danh_ba.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/activity_register.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/content_main.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/custom_loai_thu.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/custom_sp.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/custom_sp_don_vi_tien.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/custom_sp_loai_thu.xml" value="0.176" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/custom_thu.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/dialog_edit_chi.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/dialog_edit_loai_chi.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/dialog_edit_loai_thu.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/dialog_edit_thu.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/dialog_them_loai_thu.xml" value="0.1" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/dialog_them_thu.xml" value="0.264" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/fragment_chi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/fragment_hom_nay.xml" value="0.25416666666666665" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/fragment_khoan_chi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/fragment_khoan_thu.xml" value="0.2" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/fragment_thong_ke.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/fragment_thu.xml" value="0.11944444444444445" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/menu.xml" value="0.1" />
+        <entry key="..\:/Appquanlychitieu/app/src/main/res/layout/nav_header_main.xml" value="0.11944444444444445" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
