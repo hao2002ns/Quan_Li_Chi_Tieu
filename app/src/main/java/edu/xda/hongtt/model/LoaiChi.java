@@ -3,7 +3,7 @@ package edu.xda.hongtt.model;
 public class LoaiChi {
     public int id;
     public String tenLoaiChi;
-    public int deleteFlag;
+    public int deleteFlag;// xóa trạng thái ánh xạ
 
     public LoaiChi(int id, String tenLoaiChi, int deleteFlag) {
         this.id = id;

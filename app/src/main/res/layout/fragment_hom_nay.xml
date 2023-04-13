@@ -29,12 +29,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="tong chi :" />
-<!--                <TextView-->
-<!--                    android:id="@+id/txtTongthuNgay"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_weight="1"-->
-<!--                    android:text="tong thu :" />-->
                 <TextView
                     android:id="@+id/txtNgayhientai"
                     android:layout_width="wrap_content"

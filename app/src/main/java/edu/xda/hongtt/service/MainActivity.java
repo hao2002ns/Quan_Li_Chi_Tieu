@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity
         builder.setMessage("Bạn có muốn thoát ứng dụng?");
         builder.setCancelable(true);
         builder.setPositiveButton(
-                "Vâng",
+                "có",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         finish();

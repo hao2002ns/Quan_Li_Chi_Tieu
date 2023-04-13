@@ -27,7 +27,7 @@ public class ThangFragment extends Fragment {
     Spinner spThang;
     int tongChi = 0;
     MyDatabaseHelper database;
-    Calendar calendar = Calendar.getInstance();
+    Calendar calendar = Calendar.getInstance();// lấy lịch theo múi giờ được đặt
     String thangHienTai;
     ArrayList<ThangNam> thangNamArrayList;
     @Override

@@ -40,15 +40,15 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
     public MyDatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
-
+//lây dl tư csdl
     public void QueryData(String sql) {
-        SQLiteDatabase database = getWritableDatabase();
+        SQLiteDatabase database = getWritableDatabase(); //lay csdl dể đọc ghi
         database.execSQL(sql);
     }
 
     public Cursor GetDate(String sql) {
-        SQLiteDatabase database = getReadableDatabase();
-        return database.rawQuery(sql, null);
+        SQLiteDatabase database = getReadableDatabase(); // ta hoặc mở csdl
+        return database.rawQuery(sql, null);// chạy và trả về 1 cursor
     }
 
 
@@ -59,6 +59,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
     }
 
     @Override
+    //dược gọi khi chỉnh sửa bảng
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + KEY_NAME_TABLE_CHI); // mã bảng chi
         db.execSQL("DROP TABLE IF EXISTS " + KEY_NAME_TABLE_LOAICHI); // mã loại chi
@@ -67,7 +68,9 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
 
     public void addLoaiChi(LoaiChi loaiChi) {
+        // chứa thêm, xóa, sửa bảng thêm các giá trị từ object loại chi vào bảng
         SQLiteDatabase db = this.getWritableDatabase();
+        //lưu các giá trị tương ứng với trường bảng
         ContentValues values = new ContentValues();
 
         values.put(KEY_TABLE_NAME_LOAICHI, loaiChi.getTenLoaiChi());
