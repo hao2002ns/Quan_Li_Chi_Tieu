@@ -105,36 +105,6 @@ public class HomNayFragment extends Fragment {
         tongChiNgay = vnd + vietNamDong;
     }
 
-//    public void getThu(){
-//        Cursor cursor = database.GetDate("SELECT * FROM thu WHERE deleteFlag = '0'");
-//        int usd = 0;
-//        int toVnd = 23255;
-//        int vnd = 0;
-//        int vietNamDong = 0;
-//        while (cursor.moveToNext()) {
-//            int dinhMucThu = cursor.getInt(2);
-//            String donViChi = cursor.getString(3);
-//            String ngayThang = cursor.getString(4);
-//            try {
-//                Date date = simpleDate.parse(ngayThang);
-//                if (simpleDate.format(date).contains(ngayHienTai)) {
-//                    if (donViChi.equalsIgnoreCase("USD")) {
-//                        usd = usd + dinhMucThu;
-//                        vnd = (usd * toVnd);
-//                    }
-//                    if (donViChi.equalsIgnoreCase("VND")) {
-//                        vietNamDong = vietNamDong + dinhMucThu;
-//                    }
-//                }
-//            } catch (ParseException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        cursor.close();
-//        tongThuNgay = vnd + vietNamDong;
-//
-//    }
-
     public void ngayHienTai(){
         int mYear = calendar.get(Calendar.YEAR);
         int mMonth = calendar.get(Calendar.MONTH);

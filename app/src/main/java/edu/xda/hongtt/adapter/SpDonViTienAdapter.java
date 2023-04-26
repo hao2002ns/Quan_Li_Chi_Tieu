@@ -16,7 +16,7 @@ public class SpDonViTienAdapter extends ArrayAdapter<String> {
     private Context context;
     private ArrayList<String> data;
     public Resources res;
-    private LayoutInflater inflater;
+    private LayoutInflater inflater; //chuyen layout thành view
 
     public SpDonViTienAdapter(Context context, ArrayList<String> objects) {
         super(context, R.layout.custom_sp_don_vi_tien, objects);
